@@ -4,7 +4,9 @@ export const style = StyleSheet.create({
 
     contatiner:{
         flex: 1,
-        backgroundColor: "#7A4A9E"
-        
+        backgroundColor: "#7A4A9E",
+        paddingHorizontal: 24,
+        paddingTop : 60,
     }
+    
 })
