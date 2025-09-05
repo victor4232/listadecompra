@@ -1,6 +1,7 @@
 import { useState } from "react";
-import { style } from "./styles";
+import { styles } from "./styles";
 import { Alert } from "react-native";
+
 
 export function Home(){
     const [products, SetProducts] = useState<ProductType[]>([])
