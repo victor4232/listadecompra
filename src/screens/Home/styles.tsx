@@ -2,41 +2,48 @@ import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
 
-    contatiner:{
-        flex: 1,
+    container:{
         backgroundColor: "#7A4A9E",
-        paddingHorizontal: 24,
-        paddingTop : 60,
+        alignItems: "center",
+        justifyContent:"center",
+        width:"100%",
+        height: 173,
+        padding: 24,
+    },
+    containerWhite:{
+        flex: 1,
+        backgroundColor: "#FFFF"
     },
     title: {
-        fontSize: 24,
-        fontWeight: "bold",
+        fontSize: 18,
         color: "#FFFFFF",
-        textAlign: "center",
-        marginBottom: 32,
-        marginTop: 20,
+        
     },
     form: {
         flexDirection: "row",
-        marginBottom: 32,
+        marginBottom: 33,
+        top: -50,
+        width: "100%",
+        padding:18
     },
     input: {
         flex: 1,
-        height: 54,
+        height: 60,
         backgroundColor: "#F2F2F2",
+        color: "#808080",
         borderRadius: 6,
-        paddingHorizontal: 16,
-        fontSize: 16,
-        marginRight: 4,
-        color: "#000000",
+        borderWidth: 1,
+        padding: 16,
+        
     },
     button: {
-        width: 54,
-        height: 54,
-        backgroundColor: "#1E6F9F",
+        width: 60,
+        height: 60,
+        backgroundColor: "#31C667",
         borderRadius: 6,
         alignItems: "center",
         justifyContent: "center",
+        marginLeft: 5,
     },
     buttonText: {
         fontSize: 16,
@@ -44,29 +51,33 @@ export const styles = StyleSheet.create({
         color: "#FFFFFF",
     },
     info: {
+
         flexDirection: "row",
         justifyContent: "space-between",
-        marginBottom: 20,
+        margin: 24,
+        marginTop: -50,
+        borderBottomWidth: 1,
+        borderBottomColor: "#D9D9D9"
     },
     infoItem: {
+        padding: 10,
         flexDirection: "row",
-        alignItems: "center",
+        gap: 8,
     },
     infoTextGreen: {
         fontSize: 14,
-        fontWeight: "bold",
-        color: "#4EA8DE",
-        marginRight: 8,
+        fontWeight: 700,
+        color: "#31C667",
     },
     infoTextPurple: {
         fontSize: 14,
-        fontWeight: "bold",
+        fontWeight: 700,
         color: "#8284FA",
-        marginRight: 8,
+        
     },
     infoCount: {
-        backgroundColor: "#333333",
-        color: "#FFFFFF",
+        backgroundColor: "#D9D9D9",
+        color: "#333",
         fontSize: 12,
         fontWeight: "bold",
         paddingHorizontal: 8,
@@ -85,7 +96,7 @@ export const styles = StyleSheet.create({
     },
     emptyTitle: {
         fontSize: 14,
-        fontWeight: "bold",
+        fontWeight: 700,
         color: "#808080",
         textAlign: "center",
         lineHeight: 20,
