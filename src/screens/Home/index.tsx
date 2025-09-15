@@ -3,6 +3,10 @@ import { styles } from "./styles";
 import { Product } from "../components/product";
 import { Alert, View, Text, TextInput, TouchableOpacity, Image, FlatList } from "react-native";
 
+
+//PROFESSOR MEU COMMITS EM CASA ESTAVA DANDO TUDO ERRADO, NÃO SEI OQ FIZ TANTO QUE CRIOU OUTRA branches NO REPOSITORIO 
+// aI SO VOLTEI ALGUMAS SALVAS E VIM IMPORTANDO NO PC DA CESUL
+
 export interface ProductType {
     name: string;
     done: boolean;
