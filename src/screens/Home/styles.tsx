@@ -21,14 +21,13 @@ export const styles = StyleSheet.create({
     },
     form: {
         flexDirection: "row",
-        marginBottom: 33,
         top: -50,
         width: "100%",
-        padding:18
+        padding:24
     },
     input: {
         flex: 1,
-        height: 60,
+        height: 56,
         backgroundColor: "#F2F2F2",
         color: "#808080",
         borderRadius: 6,
@@ -37,17 +36,17 @@ export const styles = StyleSheet.create({
         
     },
     button: {
-        width: 60,
-        height: 60,
+        padding: 16,
+        width: 56,
+        height: 56,
         backgroundColor: "#31C667",
-        borderRadius: 6,
+        borderRadius: 5,
         alignItems: "center",
         justifyContent: "center",
         marginLeft: 5,
     },
     buttonText: {
-        fontSize: 16,
-        fontWeight: "bold",
+        fontSize: 24,
         color: "#FFFFFF",
     },
     info: {
@@ -72,17 +71,16 @@ export const styles = StyleSheet.create({
     infoTextPurple: {
         fontSize: 14,
         fontWeight: 700,
-        color: "#8284FA",
+        color: "#7A4A9E",
         
     },
     infoCount: {
         backgroundColor: "#D9D9D9",
         color: "#333",
-        fontSize: 12,
         fontWeight: "bold",
         paddingHorizontal: 8,
         paddingVertical: 2,
-        borderRadius: 10,
+        borderRadius: 999,
         minWidth: 20,
         textAlign: "center",
     },
@@ -92,21 +90,17 @@ export const styles = StyleSheet.create({
     emptyContainer: {
         alignItems: "center",
         paddingTop: 48,
-        paddingHorizontal: 20,
     },
+
     emptyTitle: {
-        fontSize: 14,
         fontWeight: 700,
         color: "#808080",
         textAlign: "center",
-        lineHeight: 20,
+        marginTop: 16,
     },
     emptySubtitle: {
-        fontSize: 14,
         color: "#808080",
         textAlign: "center",
-        marginTop: 4,
-        lineHeight: 20,
     },
     
 })

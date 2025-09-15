@@ -51,7 +51,7 @@ export function Home() {
             </View>
             <FlatList
                 data={products}
-                keyExtractor={item => item}
+                keyExtractor={(item) => item}
                 contentContainerStyle={styles.list}
                 // renderItem={({ item }) => <Product name={item} onRemove={() => handleProductRemove(item)} />}
                 showsVerticalScrollIndicator={false}
